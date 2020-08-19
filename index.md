@@ -26,9 +26,7 @@ test.csv
 
 This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 1.1 Python model and data import
 
 ```markdown
 import numpy as np                               # 向量和矩阵运算
