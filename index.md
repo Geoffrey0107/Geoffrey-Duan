@@ -26,7 +26,44 @@ test.csv
 
 This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
 
+### Markdown
 
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+import numpy as np                               # 向量和矩阵运算
+import pandas as pd                              # 表格与数据处理
+import matplotlib.pyplot as plt                  # 绘图
+import seaborn as sns                            # 更多绘图功能
+sns.set()
+
+from dateutil.relativedelta import relativedelta # 日期数据处理
+from scipy.optimize import minimize              # 优化函数
+
+import statsmodels.formula.api as smf            # 数理统计
+import statsmodels.tsa.api as smt
+import statsmodels.api as sm
+import scipy.stats as scs
+
+from itertools import product                    # 一些有用的函数
+from tqdm import tqdm_notebook
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 # Header 1
 ## Header 2
 ### Header 3
