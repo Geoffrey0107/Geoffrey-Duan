@@ -27,6 +27,7 @@ test.csv
 This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
 
 ## 1.1 Python model and data import
+Let’s begin , The data and the code can be found on my github link.
 
 ```markdown
 import numpy as np                               # 向量和矩阵运算
