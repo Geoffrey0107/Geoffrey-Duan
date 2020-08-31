@@ -1,3 +1,5 @@
+## FreshGoGo Two Months Sales DataSet Analytic
+
 ## Project Background
 
 FreshGoGo is the first ever Chinese online grocery and authentic Asian food shopping and delivery service in North America supported by advanced technical platform. FreshGoGo provides customers with fresh and high-quality of Fresh Vegetables, Poultry & Meat, Fish & Seafood, Pantry, Dry Goods, Frozen Items, Refrigerated Items, Snacks, Drinks, as well as gourmet Asian food from local famous stores and restaurants at competitive prices. FreshGoGo customers can not only choose grocery items and process an order through multiple devices (smart phone, tablet and PC), but also track the order/delivery status in real time from the point of order creation to the delivery, such as exact time when the order is loaded to the truck and when the order arrives. FreshGoGo offers nearby pickup locations and home delivery service. FreshGoGo makes grocery and food shopping & delivery fast and easy. In this project, I used the dataset for predictive data analytics purpose and developing customized reports and analysis to provide business insights that aid in driving growth, expansion and finalizing critical business decisions.
@@ -7,7 +9,9 @@ After communicating with the operation team, I am provided with historical two m
 
 In addition, Fresh GoGo runs several promotional markdown events throughout the year. These markdowns precede prominent holidays, the four largest of which are the Super Bowl, Labor Day, Thanksgiving, and Christmas. The weeks including these holidays are weighted five times higher in the evaluation than non-holiday weeks. Part of the challenge presented by this project is modeling the effects of markdowns on these holiday weeks in the absence of complete/ideal historical data.
 
-## The main python libraries used are：pandas、numpy、matplotlib、seaborn 
+## 1.1 Python model and data import
+
+The main python libraries used are：pandas、numpy、matplotlib、seaborn 
 
 ## Datasets
 Order+data+20200629-20200712.csv Order+data+20200713-20200726.csv 
@@ -26,7 +30,6 @@ test.csv
 
 This file is identical to train.csv, except we have withheld the weekly sales. You must predict the sales for each triplet of store, department, and date in this file.
 
-## 1.1 Python model and data import
 Let’s begin , The data and the code can be found on my [github link](https://github.com/Geoffrey0107/Geoffrey-Duan/edit/gh-pages/index.md).
 
 ```markdown
@@ -46,6 +49,27 @@ import scipy.stats as scs
 
 from itertools import product                    # 一些有用的函数
 from tqdm import tqdm_notebook
+
+## 1.2 Data Import and Read Order Information
+
+Data import and read order CSV file information
+
+```markdown
+#Sales 20200629-0712 as file 1
+#Sales 20200713-0726 as file 2
+file1=open(r"/Users/asus/Desktop/FreshGoGo/Order data 20200629-20200712.csv",encoding='utf-8')
+file2=open(r"/Users/asus/Desktop/FreshGoGo/Order data 20200713-20200726.csv",encoding='utf-8')
+freshgogo1 = pd.read_csv(file1)
+freshgogo2 = pd.read_csv(file2)
+
+
+
+
+
+
+
+
+
 
 # Header 1
 ## Header 2
