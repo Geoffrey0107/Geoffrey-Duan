@@ -51,8 +51,6 @@ from itertools import product                    # Some Useful Functions
 from tqdm import tqdm_notebook
 
 ```
-
-
 ## 1.2 Data Import and Read Order Information
 
 Data import and read order CSV file information
