@@ -53,7 +53,7 @@ from tqdm import tqdm_notebook
 ## 1.2 Data Import and Read Order Information
 
 Data import and read order CSV file information
-
+###
 ```markdown
 #Sales 20200629-0712 as file 1
 #Sales 20200713-0726 as file 2
