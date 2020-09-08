@@ -73,6 +73,7 @@ files4 = pd.read_excel('/Users/asus/Desktop/FreshGoGo/xiaoshouliushui20200713-07
 #freshgogo1 = pd.read_excel(file3)
 #freshgogo2 = pd.read_excel(file4)
 files3.head(2)
+```
 ![image](https://github.com/Geoffrey0107/Geoffrey-Duan/blob/gh-pages/Screen%20Shot%202020-09-07%20at%2011.34.29%20PM.png)
 ```
 
