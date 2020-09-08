@@ -62,29 +62,17 @@ file1=open(r"/Users/asus/Desktop/FreshGoGo/Order data 20200629-20200712.csv",enc
 file2=open(r"/Users/asus/Desktop/FreshGoGo/Order data 20200713-20200726.csv",encoding='utf-8')
 freshgogo1 = pd.read_csv(file1)
 freshgogo2 = pd.read_csv(file2)
-
-
-
-
-
-
-
-
-
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+Data import and read order CSV file information
+###
+```markdown
+#Sales with product information 20200629-0712 as file 3
+#Sales with product information 20200713-0726 as file 4
+files3 = pd.read_excel('/Users/asus/Desktop/FreshGoGo/xiaoshouliushui20200629-0712.xlsx')
+files4 = pd.read_excel('/Users/asus/Desktop/FreshGoGo/xiaoshouliushui20200713-0726.xlsx')
+#freshgogo1 = pd.read_excel(file3)
+#freshgogo2 = pd.read_excel(file4)
+files3.head(2)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
