@@ -33,21 +33,21 @@ This file is identical to train.csv, except we have withheld the weekly sales. Y
 Let’s begin , The data and the code can be found on my [github link](https://github.com/Geoffrey0107/Geoffrey-Duan/edit/gh-pages/index.md).
 
 ```markdown
-import numpy as np                               # 向量和矩阵运算
-import pandas as pd                              # 表格与数据处理
-import matplotlib.pyplot as plt                  # 绘图
-import seaborn as sns                            # 更多绘图功能
+import numpy as np                               # Vector and matrix operations
+import pandas as pd                              # Table and data processing
+import matplotlib.pyplot as plt                  # Plot
+import seaborn as sns                            # More drawing functions
 sns.set()
 
-from dateutil.relativedelta import relativedelta # 日期数据处理
-from scipy.optimize import minimize              # 优化函数
+from dateutil.relativedelta import relativedelta # Timeframe data processing
+from scipy.optimize import minimize              # Optimization function
 
-import statsmodels.formula.api as smf            # 数理统计
+import statsmodels.formula.api as smf            # Mathematical Statistics
 import statsmodels.tsa.api as smt
 import statsmodels.api as sm
 import scipy.stats as scs
 
-from itertools import product                    # 一些有用的函数
+from itertools import product                    # Some Useful Functions
 from tqdm import tqdm_notebook
 
 ## 1.2 Data Import and Read Order Information
